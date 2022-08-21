@@ -1,15 +1,5 @@
-const calculateSumWorker = (target) => {
-    let sum = 0; 
-    for (let index = 1; index <= target; index++) {
-        sum += index;
-    }
-   return sum;
-}
-
-const calculateAverageWorker = (target) => {
-    let sum = calculateSumWorker(target);
-    return sum / target;
-}
+importScripts("./sum.js");
+importScripts("./average.js");
 
 self.onmessage = (event) => {
     const { target, method } = event.data;
