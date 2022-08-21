@@ -1,0 +1,12 @@
+{
+  "name": "JavaScript-Is-Not-Single-Threaded",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "serve"
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
